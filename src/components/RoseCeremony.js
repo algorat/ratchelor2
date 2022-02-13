@@ -334,7 +334,7 @@ class RoseCeremony extends React.Component {
               alt="a rat waiting for you to make a decision"
             />
             <img
-              className={`ratPic sadRatPic  ${this.backRowRats[i].size}`}
+              className={`ratPic sadRatPic  ${this.frontRowRats[i].size}`}
               src={sadFilename}
               alt="a sad rat"
             />
