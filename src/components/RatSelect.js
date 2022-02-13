@@ -171,6 +171,7 @@ class RatSelect extends React.Component {
             {!this.props.isOnMobile && (
               <div className="ratNameContainer">
                 <div className="ratName">{`${this.props.rats[i].name}`}</div>
+                <div className="ratZodiac">{`${this.props.rats[i].zodiac}`}</div>
                 <div className="ratTagline">{`"${this.props.rats[i].tagline}"`}</div>
               </div>
             )}
@@ -203,6 +204,7 @@ class RatSelect extends React.Component {
               cta={mobileCTA}
             >
               <h2 style={{marginBottom: 0}}>{this.props.rats[this.state.currentlyViewedRat].name}</h2>
+              <p className="ratZodiac">{`${this.props.rats[this.state.currentlyViewedRat].zodiac}`}</p>
               <div className="column">
                 <p>{this.props.rats[this.state.currentlyViewedRat].tagline}</p>
               </div>

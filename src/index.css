@@ -148,7 +148,7 @@ button:focus {
 #interludeContainer {
   overflow: hidden;
   width: 900px;
-  height: 732px;
+  height: 700px;
   position: absolute;
   background-color: black;
 }
@@ -175,12 +175,12 @@ button:focus {
 }
 
 .curtainsIn {
-  animation: curtainsIn ease-out 0.4s;
+  animation: curtainsIn ease-out 0.3s;
   bottom: -30px;
 }
 
 .curtainsOut {
-  animation: curtainsOut ease-in 0.4s;
+  animation: curtainsOut ease-in 0.3s;
   bottom: 950px;
 }
 
@@ -347,6 +347,10 @@ button:focus {
   top: 150px;
   display: none;
   z-index: 999;
+}
+
+.ratZodiac {
+  font-style: italic;
 }
 
 #ratSelectScreen .ratTagline {
