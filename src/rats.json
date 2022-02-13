@@ -42,7 +42,7 @@
         ],
         "tagline": "SQUEAK?",
         "filename": "lepix",
-        "size": "medium",
+        "size": "med-small",
         "ending": "CHEERFUL",
         "reaction_pos": [0.23, 0.29],
         "zodiac":"Aquarius"
@@ -107,7 +107,7 @@
             "eggs-4",
             "eggs-5"
         ],
-        "size": "medium",
+        "size": "small",
         "ending": "ROMANTICSAD",
         "reaction_pos":[0.285, 0.105],
         "zodiac": "Gemini"
@@ -124,7 +124,7 @@
         ],
         "tagline": "BADABING BADABOOM!",
         "filename": "boyboymysterio",
-        "size": "medium",
+        "size": "med-small",
         "ending": "CHEERFUL",
         "reaction_pos":[0.2, 0.1],
         "zodiac": "Scorpio"
@@ -141,7 +141,7 @@
         ],
         "tagline": "Boy Boy Mysterio and I are scheming up the next big thing.",
         "filename": "barronhotlands",
-        "size": "medium",
+        "size": "med-large",
         "ending": "FUNKY",
         "reaction_pos":[0.214, 0.13],
         "zodiac": "Gemini"
@@ -233,7 +233,7 @@
         ],
         "tagline": "H E Y  C U T I E",
         "filename": "empire",
-        "size": "medium",
+        "size": "small",
         "ending": "PARIS",
         "reaction_pos":[0.26, 0.0925],
         "zodiac": "Virgo"
@@ -281,7 +281,7 @@
         ],
         "tagline": "Don't dream it be it? Well first dream a little my dear.",
         "filename": "podolico",
-        "size": "medium",
+        "size": "large",
         "ending": "CHEERFUL",
         "reaction_pos":[0.2333, 0.1258],
         "zodiac": "Leo"
@@ -305,7 +305,7 @@
             "celery-3_4",
             "celery-5"
         ],
-        "size": "medium",
+        "size": "med-small",
         "ending": "ROMANTICSAD",
         "reaction_pos":[0.24, 0.11667],
         "zodiac": "Sagittarius"
@@ -340,7 +340,7 @@
         ],
         "tagline": "You better watch out! There was some slippery steps out there, be careful.",
         "filename": "simmsammo",
-        "size": "medium",
+        "size": "large",
         "ending": "ROMANTICHAPPY",
         "reaction_pos":[0.3267, 0.172],
         "zodiac": "Virgo"
@@ -364,7 +364,7 @@
             "seansean-4",
             "seansean"
         ],
-        "size": "medium",
+        "size": "med-small",
         "ending": "INTENSE",
         "reaction_pos":[0.315, 0.1],
         "zodiac": "Gemini"
@@ -395,7 +395,7 @@
             "ultrarat-4",
             "ultrarat-5"
         ],
-        "size": "medium",
+        "size": "large",
         "ending": "CHEERFUL",
         "reaction_pos":[0.254, 0.1133],
         "zodiac": "Pices"
