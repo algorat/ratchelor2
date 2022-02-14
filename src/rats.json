@@ -26,7 +26,7 @@
             "zippy-5"
         ],
         "size": "medium",
-        "ending": "POP",
+        "ending": "ROMANTICHAPPY",
         "reaction_pos": [0.3, 0.4],
         "zodiac": "Aries"
     },
@@ -43,7 +43,7 @@
         "tagline": "SQUEAK?",
         "filename": "lepix",
         "size": "med-small",
-        "ending": "CHEERFUL",
+        "ending": "FUNKY",
         "reaction_pos": [0.4, 0.29],
         "zodiac":"Aquarius"
     },
@@ -60,7 +60,7 @@
         "tagline": "I have a bellyache :(",
         "filename": "fizzywig",
         "size": "medium",
-        "ending": "PARIS",
+        "ending": "FUNKY",
         "reaction_pos": [0.26, 0.2],
         "zodiac":"Libra"
     },
@@ -91,7 +91,7 @@
         "tagline": "Oh, hi! Do you like plants?",
         "filename": "moom",
         "size": "medium",
-        "ending": "ROMANTICSAD",
+        "ending": "PARIS",
         "reaction_pos": [0.28, 0.14],
         "zodiac": "Cancer"
     },
@@ -115,7 +115,7 @@
             "eggs-5"
         ],
         "size": "small",
-        "ending": "ROMANTICSAD",
+        "ending": "PARIS",
         "reaction_pos":[0.24, 0.2],
         "zodiac": "Gemini"
     },
@@ -132,7 +132,7 @@
         "tagline": "BADABING BADABOOM!",
         "filename": "boyboymysterio",
         "size": "med-small",
-        "ending": "CHEERFUL",
+        "ending": "POP",
         "reaction_pos":[0.27, 0.25],
         "zodiac": "Scorpio"
     },
@@ -149,7 +149,7 @@
         "tagline": "Can I help you scheme?",
         "filename": "barronhotlands",
         "size": "med-large",
-        "ending": "FUNKY",
+        "ending": "POP",
         "reaction_pos":[0.2, 0.12],
         "zodiac": "Gemini"
     },
@@ -173,7 +173,7 @@
             "moderna"
         ],
         "size": "medium",
-        "ending": "ROMANTICHAPPY",
+        "ending": "FUNKY",
         "reaction_pos":[0.3, 0.13],
         "zodiac": "Taurus"
     },
@@ -190,7 +190,7 @@
         "tagline": "I stream on Tuesdays and Sundays.",
         "filename": "sharpie",
         "size": "medium",
-        "ending": "INTENSE",
+        "ending": "ROMANTICSAD",
         "reaction_pos":[0.25, 0.2],
         "zodiac": "Scorpio"
     },
@@ -207,7 +207,7 @@
         "tagline": "Oh... were you looking at me?",
         "filename": "martine",
         "size": "medium",
-        "ending": "INTENSE",
+        "ending": "ROMANTICSAD",
         "reaction_pos":[0.34, 0.1367],
         "zodiac": "Pisces"
     },
@@ -231,7 +231,7 @@
         "tagline": "You're my Kuschelbär",
        "filename": "klaus",
         "size": "medium",
-        "ending": "PARIS",
+        "ending": "ROMANTICHAPPY",
         "reaction_pos":[0.29, 0.1325],
         "zodiac": "Aries"
     },
@@ -248,7 +248,7 @@
         "tagline": "H E Y  C U T I E",
         "filename": "empire",
         "size": "small",
-        "ending": "PARIS",
+        "ending": "FUNKY",
         "reaction_pos":[0.4, 0.2],
         "zodiac": "Virgo"
     },
@@ -265,7 +265,7 @@
         "tagline": " Bzzzzzzz",
         "filename": "esche",
         "size": "medium",
-        "ending": "ROMANTICSAD",
+        "ending": "CHEERFUL",
         "reaction_pos":[0.24, 0.26],
         "zodiac": "Aquarius"
     },
@@ -296,7 +296,7 @@
         "tagline": "Dream big, style bigger",
         "filename": "podolico",
         "size": "large",
-        "ending": "CHEERFUL",
+        "ending": "ROMANTICHAPPY",
         "reaction_pos":[0.2333, 0.1258],
         "zodiac": "Leo"
     },
@@ -320,7 +320,7 @@
             "celery-5"
         ],
         "size": "med-small",
-        "ending": "ROMANTICSAD",
+        "ending": "INTENSE",
         "reaction_pos":[0.35, 0.2],
         "zodiac": "Sagittarius"
     },
@@ -338,7 +338,7 @@
         "tagline": "Checkout my cool moves",
         "filename": "shibby",
         "size": "medium",
-        "ending": "CHEERFUL",
+        "ending": "INTENSE",
         "reaction_pos":[0.285, 0.1167],
         "zodiac": "Aries"
     },
@@ -355,7 +355,7 @@
         "tagline": "Watch out! Be careful...",
         "filename": "simmsammo",
         "size": "large",
-        "ending": "ROMANTICHAPPY",
+        "ending": "PARIS",
         "reaction_pos":[0.3267, 0.15],
         "zodiac": "Virgo"
     },
@@ -380,7 +380,7 @@
             "seansean"
         ],
         "size": "med-small",
-        "ending": "INTENSE",
+        "ending": "PARIS",
         "reaction_pos":[0.315, 0.2],
         "zodiac": "Gemini"
     },
@@ -411,7 +411,7 @@
             "ultrarat-5"
         ],
         "size": "large",
-        "ending": "CHEERFUL",
+        "ending": "ROMANTICSAD",
         "reaction_pos":[0.254, 0.1133],
         "zodiac": "Pisces"
     },
@@ -429,7 +429,7 @@
         "tagline": "It’s very nice to meet you",
         "filename": "pederson",
         "size": "medium",
-        "ending": "ROMANTICSAD",
+        "ending": "ROMANTICHAPPY",
         "reaction_pos":[0.3, 0.14],
         "zodiac": "Aquarius"
     },
@@ -453,7 +453,7 @@
         ],
         "tagline": "Can I add you on LinkedIn?",
         "size": "medium",
-        "ending": "POP",
+        "ending": "INTENSE",
         "reaction_pos":[0.31, 0.09],
         "zodiac": "Capricorn"
     }
