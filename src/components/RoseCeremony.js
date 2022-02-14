@@ -64,45 +64,34 @@ class RoseCeremony extends React.Component {
     }
 
     // Find our special sized rats
-    let bearIndex = this.ratNames.indexOf("Bear");
-    let miggIndex = this.ratNames.indexOf("Migg Mouse");
-    let largoIndex = this.ratNames.indexOf("Largathon");
+    let lepixIndex = this.ratNames.indexOf("Le Pix");
+    let podoIndex = this.ratNames.indexOf("Podolico");
 
-    // Put bear first
-    if (bearIndex !== -1) {
-      if (backRowSize > 0) {
-        backRowNames.push("Bear");
-      } else {
-        frontRowNames.push("Bear");
-      }
-    }
-
-    // Put largo next
-    if (largoIndex !== -1) {
-      if (backRowSize > 0) {
-        backRowNames.push("Largathon");
-      } else {
-        frontRowNames.push("Largathon");
-      }
-    }
-
-    // Put Migg next
-    if (miggIndex !== -1) {
-      if (frontRowSize > 0) {
-        frontRowNames.push("Migg Mouse");
-      } else {
-        backRowNames.push("Migg Mouse");
-      }
-    }
-
-    // Put in the rest of the names
-    for (let i = 0; i < this.ratNames.length; i++) {
-      let currName = this.ratNames[i];
-      if (
-        !(
-          currName === "Migg Mouse" ||
-          currName === "Largathon" ||
-          currName === "Bear"
+        // Put lepix first
+        if (lepixIndex !== -1) {
+          if (backRowSize > 0) {
+            backRowNames.push("Le Pix");
+          } else {
+            frontRowNames.push("Le Pix");
+          }
+        }
+    
+        // Put largo next
+        if (podoIndex !== -1) {
+          if (backRowSize > 0) {
+            backRowNames.push("Podolico");
+          } else {
+            frontRowNames.push("Podolico");
+          }
+        }
+    
+        // Put in the rest of the names
+        for (let i = 0; i < this.ratNames.length; i++) {
+          let currName = this.ratNames[i];
+          if (
+            !(
+              currName === "Le Pix" ||
+              currName === "Podolico"
         )
       ) {
         // Fill up the rows according to the number of contestants
