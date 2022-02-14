@@ -229,15 +229,15 @@ class RoseCeremony extends React.Component {
     for (let i = 0; i < this.backRowRats.length; i++) {
       const activeRat = this.backRowRats[i];
       const baseName = activeRat.filename;
-      let filename = `/ratchelor/img/Characters/${baseName}.png`;
-      let roseFilename = `/ratchelor/img/Characters/${baseName}${roseSuffix}`;
-      let sadFilename = `/ratchelor/img/Characters/${baseName}${roseSadSuffix}`;
+      let filename = `/ratchelor2/img/Characters/${baseName}.png`;
+      let roseFilename = `/ratchelor2/img/Characters/${baseName}${roseSuffix}`;
+      let sadFilename = `/ratchelor2/img/Characters/${baseName}${roseSadSuffix}`;
 
       if (activeRat.rose_ceremony_filename && this.roundNum < activeRat.rose_ceremony_filename.length) {
         const baseFilename = activeRat.rose_ceremony_filename[this.roundNum];
-        filename = `/ratchelor/img/Characters/${baseFilename}.png`;
-        roseFilename = `/ratchelor/img/Characters/${baseFilename}${roseSuffix}`;
-        sadFilename = `/ratchelor/img/Characters/${baseFilename}${roseSadSuffix}`;
+        filename = `/ratchelor2/img/Characters/${baseFilename}.png`;
+        roseFilename = `/ratchelor2/img/Characters/${baseFilename}${roseSuffix}`;
+        sadFilename = `/ratchelor2/img/Characters/${baseFilename}${roseSadSuffix}`;
       }
       backRatsList.push(
         <div
@@ -291,15 +291,15 @@ class RoseCeremony extends React.Component {
     for (let i = 0; i < this.frontRowRats.length; i++) {
       const activeRat = this.frontRowRats[i];
       const baseName = activeRat.filename;
-      let filename = `/ratchelor/img/Characters/${baseName}.png`;
-      let roseFilename = `/ratchelor/img/Characters/${baseName}${roseSuffix}`;
-      let sadFilename = `/ratchelor/img/Characters/${baseName}${roseSadSuffix}`;
+      let filename = `/ratchelor2/img/Characters/${baseName}.png`;
+      let roseFilename = `/ratchelor2/img/Characters/${baseName}${roseSuffix}`;
+      let sadFilename = `/ratchelor2/img/Characters/${baseName}${roseSadSuffix}`;
 
       if (activeRat.rose_ceremony_filename && this.roundNum < activeRat.rose_ceremony_filename.length) {
         const baseFilename = activeRat.rose_ceremony_filename[this.roundNum];
-        filename = `/ratchelor/img/Characters/${baseFilename}.png`;
-        roseFilename = `/ratchelor/img/Characters/${baseFilename}${roseSuffix}`;
-        sadFilename = `/ratchelor/img/Characters/${baseFilename}${roseSadSuffix}`;
+        filename = `/ratchelor2/img/Characters/${baseFilename}.png`;
+        roseFilename = `/ratchelor2/img/Characters/${baseFilename}${roseSuffix}`;
+        sadFilename = `/ratchelor2/img/Characters/${baseFilename}${roseSadSuffix}`;
       }
 
       frontRatsList.push(
