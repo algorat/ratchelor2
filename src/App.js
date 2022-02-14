@@ -421,7 +421,7 @@ class RatchelorGame extends React.Component {
 
   incrementTotalRatCount(ratName) {
     this.database
-      .ref("/")
+      .ref("/ratchelor2")
       .child(ratName)
       .set(firebase.database.ServerValue.increment(1));
   }
