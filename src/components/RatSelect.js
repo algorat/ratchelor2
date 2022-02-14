@@ -140,7 +140,7 @@ class RatSelect extends React.Component {
         <div key={"rats" + i} id="ratContainer">
           <div
             id={`rat${i}`}
-            className="ratListItem"
+            className={`ratListItem ratListItem-${this.props.rats[i].name}`}
             onClick={() => {
               if (this.props.isOnMobile) {
                 this.selectRatIntermediate(this.props.rats[i].name, i);

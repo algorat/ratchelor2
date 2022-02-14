@@ -327,6 +327,18 @@ button:focus {
   position: relative;
 }
 
+#ratSelectScreen .ratListItem-Martine {
+  opacity: 0;
+}
+
+#ratSelectScreen .selectedRat.ratListItem-Martine {
+  opacity: 1;
+}
+
+#ratSelectScreen .ratListItem-Martine:hover {
+  opacity: 1;
+}
+
 #ratSelectScreen .ratNameContainer {
   font-family: 'Yusei Magic';
   font-size: 16px;
