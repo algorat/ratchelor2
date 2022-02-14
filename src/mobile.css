@@ -278,8 +278,9 @@
   position: absolute;
   height: 20vh;
   aspect-ratio: 1;
-  left: -40%;
-  bottom: -15%;
+  transform: translateX(-50%);
+  right: 0;
+  bottom: 0;
   z-index: 200;
   pointer-events: none;
 }
@@ -294,18 +295,22 @@
   width: auto;
 }
 
+#roseCeremonyScreen .med-small {
+  height: 20vh;
+}
+
 .mobile #roseCeremonyScreen .medium {
   height: 22vh;
   width: auto;
 }
 
 .mobile #roseCeremonyScreen .med-large {
-  height: 32vh;
+  height: 25vh;
   width: auto;
 }
 
 .mobile #roseCeremonyScreen .large {
-  height: 40vh;
+  height: 30vh;
   width: auto;
 }
 
