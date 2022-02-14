@@ -4,7 +4,7 @@ html {
   min-height: calc(var(--vh, 1vh) * 100);
   position: relative;
   background-image: url(./img/Backgrounds/wallpaper.png);
-  background-size: 350px 285px;
+  background-size: 442px 250px;
 }
 
 body {
@@ -124,7 +124,7 @@ img {
 
 button {
   cursor: pointer;
-  background-color: #f0bb5a;
+  background-color: #096fc7;
   color: white;
   padding: 10px 20px;
   border-radius: 40px;
@@ -135,8 +135,8 @@ button {
 
 button:hover {
   background-color: white;
-  color: #f0bb5a;
-  border: solid #f0bb5a;
+  color: #096fc7;
+  border: solid #096fc7;
 }
 
 button:focus {
@@ -242,9 +242,9 @@ button:focus {
 
 #introScreen button {
   justify-content: center;
-  margin-top: 250px;
+  margin-top: 500px;
   font-size: 48px;
-  background-color: #dfaa13;
+  background-color: #13badf;
   padding: 8px 30px;
   border-width: 8px;
   font-family: 'Sofia', cursive;
@@ -253,7 +253,8 @@ button:focus {
 
 #introScreen button:hover {
   background-color: white;
-  border-color: #f3bb1c;
+  color: #13badf;
+  border-color: #13badf;
 }
 
 /* RAT SELECT */
@@ -261,7 +262,7 @@ button:focus {
   animation: fadeIn ease 3s;
   width: 900px;
   height: 100%;
-  background-color: #ffe5e5;
+  background-color: #f6e9fc;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -271,7 +272,7 @@ button:focus {
 #ratSelectScreen button {
   background-color: #ffffff;
   /* border: 3px solid #fe97b0; */
-  color: #dd8d9d;
+  color: #cc8ddd;
   padding-top: 6px;
   font-size: 24px;
   padding-bottom: 8px;
@@ -292,7 +293,7 @@ button:focus {
 
 #ratSelectScreen button:hover {
   color: #ffffff;
-  background-color: #eda9b7;
+  background-color: #e7a9ed;
   border: none;
 }
 
@@ -356,7 +357,7 @@ button:focus {
   width: 140px;
   left: 0;
   right: 0;
-  top: 110px;
+  top: 130px;
   display: none;
   z-index: 999;
 }
@@ -384,6 +385,10 @@ button:focus {
   position: relative;
 }
 
+#ratSelectScreen .ratPic {
+  cursor: pointer;
+}
+
 #ratSelectScreen .ratPic:hover + .ratNameContainer {
   display: block;
 }
@@ -402,9 +407,9 @@ button:focus {
   font-size: 30px;
   margin-bottom: 0px;
   padding-top: 18px;
-  color: #ffeeee;
-  background-color: #ca5e77;
-  border-bottom: 8px solid #eda9b7;
+  color: #ffffff;
+  background-color: #844a98;
+  border-bottom: 8px solid #e4a9ed;
   width: 100%;
   text-align: center;
   height: 85px;
@@ -435,8 +440,8 @@ button:focus {
 #talkingToRatsScreen #ratName {
   font-family: 'Yusei Magic', sans-serif;
   font-size: 24px;
-  background-color: #ad8f18;
-  color: #f5eaca;
+  background-color: #835c94;
+  color: #ffffff;
 
   width: fit-content;
   padding: 5px 20px;
@@ -453,10 +458,10 @@ button:focus {
   font-family: 'Yusei Magic', sans-serif;
   font-size: 21px;
   padding: 15px 35px;
-  background-color: #e0d192;
+  background-color: #f2def7;
   width: 900px;
   padding-bottom: 90px;
-  border-top: 13px solid #ad8f18;
+  border-top: 13px solid #835c94;
 }
 
 #talkingToRatsScreen #dialogueContainer {
@@ -469,12 +474,12 @@ button:focus {
   padding: 5px 10px;
   margin-right: 4px;
   border: 2px;
-  background-color: #d58d00;
+  background-color: #096fc7;
 }
 
 #talkingToRatsScreen button:hover {
-  background-color: #fff6dd;
-  color: #d58d00;
+  background-color: #e2f1ff;
+  color: #096fc7;
 }
 
 #talkingToRatsScreen #responses {
@@ -779,8 +784,8 @@ button:focus {
 }
 
 #roseCeremonyScreen #instructions {
-  background-color: rgba(24, 56, 71, 1);
-  color: rgb(241, 227, 187);
+  background-color: rgb(116, 14, 150);
+  color: rgb(255, 248, 227);
   width: 100%;
   height: 75px;
   display: flex;
@@ -854,8 +859,8 @@ button:focus {
   position: absolute;
   padding: 20px 40px;
   animation: slideUp ease 7s;
-  background-color: rgba(236, 217, 165, 0.85);
-  color: #4b4015;
+  background-color: rgba(223, 247, 255, 0.85);
+  color: #1c214a;
   bottom: 0px;
   width: 100%;
 }
@@ -1335,7 +1340,7 @@ input[type='range']::-ms-thumb {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff5f5;
+  background-color: #fff5fd;
   position: relative;
 }
 
@@ -1354,7 +1359,7 @@ input[type='range']::-ms-thumb {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #ffe5e5;
+  background-color: #ffe5fe;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -1370,7 +1375,7 @@ input[type='range']::-ms-thumb {
 
 #ratchelor-intro-title {
   font-size: 42px;
-  color: #c14d67;
+  color: #832783;
   font-family: 'Yusei Magic', sans-serif;
 }
 
@@ -1378,7 +1383,7 @@ input[type='range']::-ms-thumb {
   width: 55%;
   text-align: center;
   font-family: 'Yusei Magic', sans-serif;
-  color: #c14d67;
+  color: #832783;
   font-size: 22px;
   margin-top: 15px;
 }
@@ -1389,7 +1394,7 @@ input[type='range']::-ms-thumb {
   margin-bottom: 30px;
   font-size: 28px;
   text-align: center;
-  color: #c44663;
+  color: #c14dc1;
 }
 
 #custom-character #button-container {
@@ -1401,15 +1406,15 @@ input[type='range']::-ms-thumb {
 }
 
 #custom-character button {
-  background-color: #c44663;
-  border: 8px solid #ffe5ea;
+  background-color: #c14dc1;
+  border: 8px solid #fee5ff;
   z-index: 1;
   font-size: 30px;
   padding: 10px 25px;
 }
 
 #custom-character button:hover {
-  background-color: #fe97b0;
+  background-color: #e897fe;
   color: white;
 }
 
@@ -1487,9 +1492,9 @@ input[type='range']::-ms-thumb {
   top: 14px;
   width: auto;
   right: 108px;
-  color: rgb(114, 63, 65);
+  color: rgb(90, 63, 114);
   font-family: 'Yusei Magic', sans-serif;
-  background-color: rgb(253, 237, 238);
+  background-color: rgb(244, 237, 253);
   padding: 10px 10px;
   font-size: 16px;
   text-decoration: none;
@@ -1497,8 +1502,8 @@ input[type='range']::-ms-thumb {
 }
 
 #stickers:hover {
-  background-color: #f8796a;
-  color: rgba(254, 220, 221, 1);
+  background-color: #ac6af8;
+  color: rgb(247, 220, 254);
 }
 
 #credit-title {
@@ -1516,10 +1521,10 @@ input[type='range']::-ms-thumb {
   padding: 0 12px;
   border-radius: 12px;
   line-height: 105%;
-  background-color: rgb(253, 237, 238);
+  background-color: rgb(244, 237, 253);
   font-family: Yusei Magic;
   text-align: center;
-  color: rgb(114, 63, 65);
+  color: rgb(90, 63, 114);
   font-size: 18px;
   cursor: pointer;
   text-decoration: none;
@@ -1558,7 +1563,7 @@ input[type='range']::-ms-thumb {
 }
 
 #credits a {
-  color: rgb(187, 18, 54);
+  color: rgb(108, 18, 187);
 }
 
 #algorats-credit-small {
