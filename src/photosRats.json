@@ -241,5 +241,28 @@
           "Rat1": "sminny",
           "Rat2": "ultrarat"
         }]
-    }
+    },
+    {
+
+      "rat": "boyboymysterio",
+      "photos":[   
+        {
+        "filename": "barronhotlands_boyboymysterio.png",
+        "text": "Boy Boy Mysterio and Barron Hotlands \"scheming\" together",
+        "numRats": 2,
+        "Rat1": "barronhotlands",
+        "Rat2": "boyboymysterio"
+      }]
+  },    {
+
+    "rat": "barronhotlands",
+    "photos":[   
+      {
+      "filename": "barronhotlands_boyboymysterio.png",
+      "text": "Boy Boy Mysterio and Barron Hotlands \"scheming\" together",
+      "numRats": 2,
+      "Rat1": "barronhotlands",
+      "Rat2": "boyboymysterio"
+    }]
+}
 ]
