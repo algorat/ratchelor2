@@ -79,8 +79,15 @@
             "moom",
             "moom",
             "moom",
-            "moom-rose"
+            "moom-flower"
         ],
+        "rose_ceremony_filename":[
+            "moom",
+            "moom",
+            "moom",
+            "moom",
+            "moom-flower"           
+        ]
         "tagline": "Oh, hi! Do you like plants?",
         "filename": "moom",
         "size": "medium",
@@ -214,6 +221,13 @@
             "My Great-great-great-great-great-great-grand-rats made shoes for Beethoven’s house mice! Our families have kept in touch and they are studying at Rat State now. I always bring them a fresh pretzel whenever I see them - I brought yoü one for yoü to eat while we talk, and one for myself so we can both eat together.",
             "Ahh. I am in love with you. Ich liebe dich, as they say. I have made you this pretzel inspired by my love for you. Made of diamonds. A diamond pretzel for you, perfect in every way - even Cinderella would not be able to eat it, because it is for you. Welcome to the von Maus family!"
         ],
+        "talking_to_rats_filename":[
+            "klaus",
+            "klaus",
+            "klaus",
+            "klaus",
+            "klaus-pretzle"
+        ],
         "tagline": "",
         "filename": "klaus",
         "size": "medium",
@@ -266,11 +280,11 @@
             "You’re a dream that I hold so close to my heart, so near and dear, and I know that being with you will open the door to so many more dreams. I love you. There are so many things that I can achieve with your support, things you can achieve with mine, and things we can both achieve together!"
         ],
         "talking_to_rats_filename":[
-            "podolico",
-            "podolico",
-            "podolico",
-            "podolico",
-            "podolico"
+            "podolico-1",
+            "podolico-2",
+            "podolico-3",
+            "podolico-4",
+            "podolico-5"
         ],
         "rose_ceremony_filename":[
             "podolico-1",
@@ -376,7 +390,7 @@
             "Ah, I overshot again and now I’m a year and a half behind you. They think I’m an art student working on my final project so now I have access to this edu zoom account. There’s no cool filters yet... It’s not all bad though! They have a pretty good library selection and now I can check things out; do you need any books?",
             "Hi I’m Lara Turt, Ultrarat couldn’t make it but they sent me in their stead - hmm lets see… they wrote about a growing fondness for you and a regret about the unpredictability of their whereabouts. Oh! And it’s signed with a kiss!",
             "This time I overshot my machine and went in the wrong direction, I accidentally went back home! Hold on one second. __It’s no one Mom!! I’m not talking to anyone…. No, I’m not a robot…__ Sorry, they’re making me do the Turing Test again, but I keep failing since that test was designed for humans… and well, I’m a rat. Anyways, have I told you how much I love the poetry of eating strawberries and cream? ",
-            "I’m so glad to finally meet you in person, my therapist ELIZA says I should really be more open and tell you how I feel! Well here it goes! You inspire me so much. In all the places and times I have seen you, I am so grateful that fate has brought me here! When I was in the future I… caught a glimpse of us, together. Now, I know futures aren’t set in stone, and they can change, but I hope this one doesn’t.",
+            "Wow, I’m so happy to finally meet you in person. Sorry, I'm feeling a little shy; my therapist ELIZA says I should really be more open and tell you how I feel! Well here it goes! You inspire me so much. In all the places and times I have seen you, I am so grateful that fate has brought me here! When I was in the future I… caught a glimpse of us, together. Now, I know futures aren’t set in stone, and they can change, but I hope this one doesn’t.",
             "I feel like everyone in my life debates the nature of my existence, but you… you just accept me as I am! No judgment if I really understand what I am saying or if I simply have cognitive states. You don’t care about any of that! I love you with all 10^22278  of my nodes - I have seen galaxies but they are nothing compared to your eyes! Let us fly through the winds of spacetime together"
         ],
         "tagline": "It's 2022? Oh you all havent figured out about quark-bird communication yet",
@@ -386,7 +400,7 @@
             "ultrarat-2",
             "ultrarat-3",
             "ultrarat-4",
-            "ultrarat"
+            "ultrarat-5"
         ],
         "rose_ceremony_filename":[
             "ultrarat-1",
