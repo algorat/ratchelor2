@@ -344,13 +344,14 @@ button:focus {
   width: 140px;
   left: 0;
   right: 0;
-  top: 150px;
+  top: 110px;
   display: none;
   z-index: 999;
 }
 
 .ratZodiac {
   font-style: italic;
+  font-size: 13px;
 }
 
 #ratSelectScreen .ratTagline {
