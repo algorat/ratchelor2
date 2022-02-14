@@ -504,7 +504,7 @@ button:focus {
 }
 
 .ratImg {
-  left: -550px;
+  left: -650px;
 }
 
 .enteringRat {
@@ -513,7 +513,7 @@ button:focus {
 }
 
 .leavingRat {
-  left: -550px;
+  left: -650px;
   animation: sendRatOut ease-in 0.8s !important;
 }
 
