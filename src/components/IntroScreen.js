@@ -54,8 +54,11 @@ class IntroScreen extends React.Component {
           <div id="hideme" />
         </div>
         {this.props.isOnMobile && (
-          <MobileWrapper>
-            <div id="button-container">{buttonOrLoader}</div>
+          <MobileWrapper
+          controlsStyled={true}
+          cta={buttonOrLoader}
+          >
+            Looks like you're on mobile! Welcome! Mobile is available to play, but our game works better on larger screens so we would suggest joining from a laptop or desktop computer if possible :)
           </MobileWrapper>
         )}
       </>
