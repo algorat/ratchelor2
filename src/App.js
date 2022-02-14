@@ -166,7 +166,7 @@ class RatchelorGame extends React.Component {
     if (!onMobile) {
       return;
     }
-
+    
     if (window.innerHeight > window.innerWidth) {
       this.setState({
         mobileAndPortrait: true,
@@ -452,7 +452,7 @@ class RatchelorGame extends React.Component {
     }
     this.database = firebase.database();
     this.randoRat = ratsJson[Math.floor(Math.random() * ratsJson.length)];
-    window.addEventListener("resize", this.recalculateDimensions);
+    window.addEventListener("resize", () => this.recalculateDimensions());
   }
 
   render() {
