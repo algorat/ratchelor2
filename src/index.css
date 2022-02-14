@@ -234,10 +234,10 @@ button:focus {
 #introScreen #loadingText {
   font-family: 'Yusei Magic', sans-serif;
   font-size: 48px;
-  left: 420px;
-  bottom: 240px;
+  left: 320px;
+  bottom: 40px;
   position: absolute;
-  color: #86141a;
+  color: white;
 }
 
 #introScreen button {
