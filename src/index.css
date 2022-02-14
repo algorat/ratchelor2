@@ -234,10 +234,10 @@ button:focus {
 #introScreen #loadingText {
   font-family: 'Yusei Magic', sans-serif;
   font-size: 48px;
-  left: 420px;
-  bottom: 240px;
+  left: 320px;
+  bottom: 40px;
   position: absolute;
-  color: #86141a;
+  color: white;
 }
 
 #introScreen button {
@@ -328,16 +328,20 @@ button:focus {
   position: relative;
 }
 
-#ratSelectScreen .ratListItem-Martine {
+#ratSelectScreen .ratListItem-Martine img {
   opacity: 0;
 }
 
-#ratSelectScreen .selectedRat.ratListItem-Martine {
-  opacity: 1;
+#ratSelectScreen .martineEmpty {
+  opacity: 1 !important;
 }
 
-#ratSelectScreen .ratListItem-Martine:hover {
-  opacity: 1;
+#ratSelectScreen .selectedRat.ratListItem-Martine img {
+  opacity: 1 !important;
+}
+
+#ratSelectScreen .ratListItem-Martine:hover img {
+  opacity: 1 !important;
 }
 
 #ratSelectScreen .ratNameContainer {
