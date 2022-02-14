@@ -150,12 +150,19 @@ class RatSelect extends React.Component {
             }}
           >
             <div className="ratPic">
+            {this.props.rats[i].name === "Martine" && <img
+                key={`ratframe${i}`}
+                className={`ratFrame martineEmpty ${(this.props.isOnMobile && this.state.currentlyViewedRat === i) ? "ratFrameActive" : ""}`}
+                src={'/ratchelor2/img/frames/martine-frame-empty.PNG'}
+                alt=""
+              />}
               <img
                 key={`ratframe${i}`}
                 className={`ratFrame ${(this.props.isOnMobile && this.state.currentlyViewedRat === i) ? "ratFrameActive" : ""}`}
                 src={filename}
                 alt=""
               />
+              
               <img
                 key={`rathearts${i}`}
                 className={`ratHearts ${(this.props.isOnMobile && this.state.currentlyViewedRat === i) ? "ratFrameActive" : ""}`}

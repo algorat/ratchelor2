@@ -328,16 +328,20 @@ button:focus {
   position: relative;
 }
 
-#ratSelectScreen .ratListItem-Martine {
+#ratSelectScreen .ratListItem-Martine img {
   opacity: 0;
 }
 
-#ratSelectScreen .selectedRat.ratListItem-Martine {
-  opacity: 1;
+#ratSelectScreen .martineEmpty {
+  opacity: 1 !important;
 }
 
-#ratSelectScreen .ratListItem-Martine:hover {
-  opacity: 1;
+#ratSelectScreen .selectedRat.ratListItem-Martine img {
+  opacity: 1 !important;
+}
+
+#ratSelectScreen .ratListItem-Martine:hover img {
+  opacity: 1 !important;
 }
 
 #ratSelectScreen .ratNameContainer {
