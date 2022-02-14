@@ -4827,7 +4827,7 @@
         },
         {
            "response":"Thanks for being here",
-           "reaction":"smiles"
+           "reaction":"smile"
         }
      ],
      "4":[
@@ -4837,7 +4837,7 @@
         },
         {
            "response":"High five!",
-           "reaction":"neautral"
+           "reaction":"neutral"
         },
         {
            "response":"I'm so happy for you",
@@ -5121,7 +5121,7 @@
         },
         {
            "response":"I'm not sure about that...",
-           "reaction":"broken money"
+           "reaction":"broken_money"
         },
         {
            "response":"I dunno if thats something you should share...",
