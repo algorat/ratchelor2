@@ -87,7 +87,7 @@
             "moom",
             "moom",
             "moom-flower"           
-        ]
+        ],
         "tagline": "Oh, hi! Do you like plants?",
         "filename": "moom",
         "size": "medium",
@@ -221,7 +221,6 @@
             "My Great-great-great-great-great-great-grand-rats made shoes for Beethoven’s house mice! Our families have kept in touch and they are studying at Rat State now. I always bring them a fresh pretzel whenever I see them - I brought yoü one for yoü to eat while we talk, and one for myself so we can both eat together.",
             "Ahh. I am in love with you. Ich liebe dich, as they say. I have made you this pretzel inspired by my love for you. Made of diamonds. A diamond pretzel for you, perfect in every way - even Cinderella would not be able to eat it, because it is for you. Welcome to the von Maus family!"
         ],
-<<<<<<< HEAD
         "talking_to_rats_filename":[
             "klaus",
             "klaus",
@@ -229,11 +228,8 @@
             "klaus",
             "klaus-pretzle"
         ],
-        "tagline": "",
-=======
         "tagline": "You're my Kuschelbär",
->>>>>>> c11c7b57e37d1d4e65003913fa8a47e4fc5447dc
-        "filename": "klaus",
+       "filename": "klaus",
         "size": "medium",
         "ending": "PARIS",
         "reaction_pos":[0.29, 0.1325],
