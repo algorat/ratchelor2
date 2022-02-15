@@ -8,11 +8,11 @@
 
 @media (max-height: 360px) {
   :root {
-    --mobile-button-text-size: 14px;
-    --mobile-h2: 14px;
-    --mobile-h2-line-height: 16px;
-    --mobile-body: 10px;
-    --mobile-body-line-height: 13px;
+    --mobile-button-text-size: 16px;
+    --mobile-h2: 16px;
+    --mobile-h2-line-height: 18px;
+    --mobile-body: 12px;
+    --mobile-body-line-height: 15px;
   }
 }
 
