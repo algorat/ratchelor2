@@ -124,7 +124,7 @@ img {
 
 button {
   cursor: pointer;
-  background-color: #096fc7;
+  background-color: #580c3f;
   color: white;
   padding: 10px 20px;
   border-radius: 40px;
@@ -135,8 +135,8 @@ button {
 
 button:hover {
   background-color: white;
-  color: #096fc7;
-  border: solid #096fc7;
+  color: #bb3b90;
+  border: solid #bb3b90;
 }
 
 button:focus {
@@ -244,7 +244,7 @@ button:focus {
   justify-content: center;
   margin-top: 500px;
   font-size: 48px;
-  background-color: #13badf;
+  background-color: #12cee7;
   padding: 8px 30px;
   border-width: 8px;
   font-family: 'Sofia', cursive;
@@ -253,8 +253,8 @@ button:focus {
 
 #introScreen button:hover {
   background-color: white;
-  color: #13badf;
-  border-color: #13badf;
+  color: #008091;
+  border-color: #12cee7;
 }
 
 /* RAT SELECT */
@@ -262,7 +262,7 @@ button:focus {
   animation: fadeIn ease 3s;
   width: 900px;
   height: 100%;
-  background-color: #f6e9fc;
+  background-color: #f0fdff;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -272,7 +272,7 @@ button:focus {
 #ratSelectScreen button {
   background-color: #ffffff;
   /* border: 3px solid #fe97b0; */
-  color: #cc8ddd;
+  color: #d3a200;
   padding-top: 6px;
   font-size: 24px;
   padding-bottom: 8px;
@@ -412,8 +412,8 @@ button:focus {
   margin-bottom: 0px;
   padding-top: 18px;
   color: #ffffff;
-  background-color: #844a98;
-  border-bottom: 8px solid #e4a9ed;
+  background-color: #8f2760;
+  border-bottom: 8px solid #631741;
   width: 100%;
   text-align: center;
   height: 85px;
@@ -444,7 +444,7 @@ button:focus {
 #talkingToRatsScreen #ratName {
   font-family: 'Yusei Magic', sans-serif;
   font-size: 24px;
-  background-color: #835c94;
+  background-color: #8b1d5a;
   color: #ffffff;
 
   width: fit-content;
@@ -462,10 +462,10 @@ button:focus {
   font-family: 'Yusei Magic', sans-serif;
   font-size: 21px;
   padding: 15px 35px;
-  background-color: #f2def7;
+  background-color: #f7eac1;
   width: 900px;
   padding-bottom: 90px;
-  border-top: 13px solid #835c94;
+  border-top: 13px solid #bb3980;
 }
 
 #talkingToRatsScreen #dialogueContainer {
@@ -478,12 +478,12 @@ button:focus {
   padding: 5px 10px;
   margin-right: 4px;
   border: 2px;
-  background-color: #096fc7;
+  background-color: #8f2760;
 }
 
 #talkingToRatsScreen button:hover {
-  background-color: #e2f1ff;
-  color: #096fc7;
+  background-color: #ffc4e4;
+  color: #943368;
 }
 
 #talkingToRatsScreen #responses {
