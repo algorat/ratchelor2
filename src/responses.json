@@ -528,18 +528,6 @@
      ],
      "4":[
         {
-           "response":"*Nod*",
-           "reaction":"good"
-        },
-        {
-           "response":"Proud of you",
-           "reaction":"good"
-        },
-        {
-           "response":"I would love to hear more",
-           "reaction":"good"
-        },
-        {
            "response":"Why?",
            "reaction":"confused"
         },
@@ -556,24 +544,8 @@
            "reaction":"heyes"
         },
         {
-           "response":"Thanks for being here",
-           "reaction":"heyes"
-        },
-        {
            "response":"Love that for you",
-           "reaction":"heyes"
-        },
-        {
-           "response":"That makes me think...",
-           "reaction":"confused"
-        },
-        {
-           "response":"Yes",
-           "reaction":"heyes"
-        },
-        {
-           "response":"That sounds like a personal problem",
-           "reaction":"angry"
+           "reaction":"good"
         }
      ],
      "5":[
