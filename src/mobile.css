@@ -70,7 +70,9 @@
 }
 
 .mobile p {
-  margin: 10px 0px;
+  margin: 8px 0px;
+  font-size: var(--mobile-body);
+  line-height: var(--mobile-body-line-height);
 }
 
 .mobile button {
@@ -225,6 +227,10 @@
 
 .mobile #ratSelectScreen .controls-wrapper__body h2 {
   font-family: 'Sofia';
+}
+
+.mobile .ratZodiac {
+  margin: 0;
 }
 
 /*------------ TALKING TO RATS ----------------*/
