@@ -250,7 +250,13 @@
           "numRats": 2,
           "Rat1": "simmsammo",
           "Rat2": "seansean"
-        }]
+        },{
+          "filename": "simmsammo.png",
+          "text": "SimmSammo wins the staring contest",
+          "numRats": 1,
+          "Rat1": "simmsammo"
+        }
+      ]
     },
     {
 
@@ -302,6 +308,16 @@
     "text": "Eggs finds joy in studying the origins of eggs",
     "numRats": 1,
     "Rat1": "eggs"
+  }]
+},    {
+
+  "rat": "martine",
+  "photos":[   
+    {
+    "filename": "martine.png",
+    "text": "Martine and their new house to haunt",
+    "numRats": 1,
+    "Rat1": "martine"
   }]
 }
 ]
