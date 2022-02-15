@@ -482,7 +482,7 @@ button:focus {
 }
 
 #talkingToRatsScreen button:hover {
-  background-color: #ffc4e4;
+  background-color: #ffeaf6;
   color: #943368;
 }
 
@@ -1500,9 +1500,9 @@ input[type='range']::-ms-thumb {
   top: 14px;
   width: auto;
   right: 108px;
-  color: rgb(90, 63, 114);
+  color: #8b1d5a;
   font-family: 'Yusei Magic', sans-serif;
-  background-color: rgb(244, 237, 253);
+  background-color: #f9ebf2;
   padding: 10px 10px;
   font-size: 16px;
   text-decoration: none;
@@ -1510,8 +1510,8 @@ input[type='range']::-ms-thumb {
 }
 
 #stickers:hover {
-  background-color: #ac6af8;
-  color: rgb(247, 220, 254);
+  background-color: #8b1d5a;
+  color: #f9ebf2;
 }
 
 #credit-title {
@@ -1529,10 +1529,10 @@ input[type='range']::-ms-thumb {
   padding: 0 12px;
   border-radius: 12px;
   line-height: 105%;
-  background-color: rgb(244, 237, 253);
+  background-color: #f9ebf2;
   font-family: Yusei Magic;
   text-align: center;
-  color: rgb(90, 63, 114);
+  color: #8b1d5a;
   font-size: 18px;
   cursor: pointer;
   text-decoration: none;
