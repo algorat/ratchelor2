@@ -291,32 +291,32 @@
 }
 
 .mobile #roseCeremonyScreen .small {
-  height: 18vh;
-  width: auto;
-}
-
-.mobile #roseCeremonyScreen .med-small {
   height: 20vh;
   width: auto;
 }
 
-.mobile #roseCeremonyScreen .medium {
+.mobile #roseCeremonyScreen .med-small {
   height: 22vh;
   width: auto;
 }
 
+.mobile #roseCeremonyScreen .medium {
+  height: 24vh;
+  width: auto;
+}
+
 .mobile #roseCeremonyScreen .med-large {
-  height: 25vh;
+  height: 27vh;
   width: auto;
 }
 
 .mobile #roseCeremonyScreen .large {
-  height: 30vh;
+  height: 32vh;
   width: auto;
 }
 
 .mobile #roseCeremonyScreen .xlarge {
-  height: 34vh;
+  height: 37vh;
   width: auto;
 }
 
@@ -471,6 +471,11 @@
 }
 
 /*------- PROPOSAL -------*/
+.mobile .propose-xlarge {
+  max-height: 90%;
+  max-width: 90%;
+}
+
 .mobile .propose-large {
   max-height: 60%;
   max-width: 60%;
@@ -482,13 +487,18 @@
 }
 
 .mobile .propose-medium {
-  max-height: 45%;
-  max-width: 45%;
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.mobile .propose-med-small {
+  max-height: 40%;
+  max-width: 40%;
 }
 
 .mobile .propose-small {
-  max-height: 35%;
-  max-width: 35%;
+  max-height: 30%;
+  max-width: 30%;
 }
 
 .mobile #proposalScreen #proposingRat {

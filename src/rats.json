@@ -172,7 +172,7 @@
             "moderna-child",
             "moderna-child"
         ],
-        "size": "medium",
+        "size": "med-large",
         "ending": "FUNKY",
         "reaction_pos":[0.3, 0.13],
         "zodiac": "Taurus"
@@ -452,7 +452,7 @@
             "sminny"
         ],
         "tagline": "Can I add you on LinkedIn?",
-        "size": "medium",
+        "size": "med-large",
         "ending": "INTENSE",
         "reaction_pos":[0.31, 0.09],
         "zodiac": "Capricorn"

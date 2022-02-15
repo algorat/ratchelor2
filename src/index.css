@@ -815,24 +815,32 @@ button:focus {
   justify-content: center;
 }
 
-.propose-large {
+.propose-xlarge {
   max-height: 600px;
   max-width: 600px;
-  transform: scaleX(-1);
+}
+
+.propose-large {
+  max-height: 450px;
+  max-width: 450px;
 }
 
 .propose-med-large {
-  max-height: 500px;
-  max-width: 500px;
+  max-height: 370px;
+  max-width: 370px;
 }
 
 .propose-medium {
   max-height: 300px;
 }
 
+.propose-med-small {
+  max-height: 250px;
+}
+
 .propose-small {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 175px;
+  max-height: 175px;
 }
 
 #finalRat {
