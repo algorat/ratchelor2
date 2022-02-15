@@ -64,10 +64,10 @@ class TalkingToRats extends React.Component {
 
     for (let i = 0; i < this.activeRats.length; i++) {
       const activeRat = this.activeRats[i];
-      let filename = `/ratchelor2/img/Couch/${activeRat.filename}.png`;
+      let filename = `${process.env.PUBLIC_URL}/img/Couch/${activeRat.filename}.png`;
       if (activeRat.talking_to_rats_filename && this.roundNum < activeRat.talking_to_rats_filename.length) {
         const baseFilename = activeRat.talking_to_rats_filename[this.roundNum];
-        filename = `/ratchelor2/img/Couch/${baseFilename}.png`;
+        filename = `${process.env.PUBLIC_URL}/img/Couch/${baseFilename}.png`;
       }
       let imgHTML = <img key={i} id={`ratImg${i}`} onLoad={this.ratImgLoaded.bind(this)} alt="a rat who wants to fall in love with you" className="ratImg" src={filename}></img>
       this.ratImgs.push(imgHTML);

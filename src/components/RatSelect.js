@@ -153,7 +153,7 @@ class RatSelect extends React.Component {
             {this.props.rats[i].name === "Martine" && <img
                 key={`ratframeempty${i}`}
                 className={`ratFrame martineEmpty ${(this.props.isOnMobile && this.state.currentlyViewedRat === i) ? "ratFrameActive" : ""}`}
-                src={'/ratchelor2/img/frames/martine-frame-empty.png'}
+                src={`${process.env.PUBLIC_URL}/img/Frames/martine-frame-empty.png`}
                 alt=""
               />}
               <img
