@@ -1,9 +1,9 @@
 :root {
-  --mobile-button-text-size: 20px;
-  --mobile-h2: 20px;
-  --mobile-h2-line-height: 26px;
-  --mobile-body: 16px;
-  --mobile-body-line-height: 18px;
+  --mobile-button-text-size: 21px;
+  --mobile-h2: 21px;
+  --mobile-h2-line-height: 27px;
+  --mobile-body: 17px;
+  --mobile-body-line-height: 19px;
 }
 
 @media (max-height: 360px) {
