@@ -7,6 +7,5 @@
     "chimes": ["three_smile", "chill", "smile_sunglasses", "good", "stars_smile", "sunglass_smile",  "smile_six", "smile", "laure", "wink"],
     "tada": ["juice", "pretzel", "highfive", "wow"],
     "ding": [],
-    "wobble": ["stars_confuse", "confused","broken_money"],
-    "slurp":["juice"]
+    "wobble": ["stars_confuse", "confused","broken_money"]
 }
