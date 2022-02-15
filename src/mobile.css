@@ -71,6 +71,8 @@
 
 .mobile p {
   margin: 8px 0px;
+  font-size: var(--mobile-body);
+  line-height: var(--mobile-body-line-height);
 }
 
 .mobile button {
