@@ -1,16 +1,18 @@
 :root {
-  --mobile-button-text-size: 1.8rem;
-  --mobile-h2: 1.8rem;
-  --mobile-h2-line-height: 2.2rem;
-  --mobile-body: 1.2rem;
-  --mobile-body-line-height: 1.4rem;
+  --mobile-button-text-size: 20px;
+  --mobile-h2: 20px;
+  --mobile-h2-line-height: 26px;
+  --mobile-body: 16px;
+  --mobile-body-line-height: 18px;
 }
 
 @media (max-height: 360px) {
   :root {
-    --mobile-body: 0.9rem;
-    --mobile-h2: 1.1rem;
-    --mobile-button-text-size: 1.3rem;
+    --mobile-button-text-size: 16px;
+    --mobile-h2: 16px;
+    --mobile-h2-line-height: 18px;
+    --mobile-body: 12px;
+    --mobile-body-line-height: 15px;
   }
 }
 
@@ -556,3 +558,7 @@
   right: 0;
   z-index: 10001;
 }
+
+/* .mobile .reaction-emote {
+  max-height: 40px; //TODO MAKE IT WORK
+} */
