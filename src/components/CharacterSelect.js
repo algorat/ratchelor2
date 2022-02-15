@@ -11,7 +11,7 @@ class CharacterImg extends React.Component {
         {this.props.selected && (
           <img
             alt=""
-            src={`${process.env.PUBLIC_URL}/img/Frames/hearts7.PNG`}
+            src={`${process.env.PUBLIC_URL}/img/Frames/hearts7.png`}
             className="selected-bg"
           />
         )}

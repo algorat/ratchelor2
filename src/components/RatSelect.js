@@ -132,10 +132,10 @@ class RatSelect extends React.Component {
     );
     // Create a clickable div for every rat in the game
     for (let i = 0; i < this.props.rats.length; i++) {
-      let filename = `${process.env.PUBLIC_URL}/img/Frames/${this.props.rats[i].filename}-frame.PNG`;
+      let filename = `${process.env.PUBLIC_URL}/img/Frames/${this.props.rats[i].filename}-frame.png`;
       let filenameHearts = `${process.env.PUBLIC_URL}/img/Frames/hearts${
         (i % 9) + 1
-      }.PNG`;
+      }.png`;
       ratsList.push(
         <div key={"rats" + i} id="ratContainer">
           <div
@@ -151,9 +151,9 @@ class RatSelect extends React.Component {
           >
             <div className="ratPic">
             {this.props.rats[i].name === "Martine" && <img
-                key={`ratframe${i}`}
+                key={`ratframeempty${i}`}
                 className={`ratFrame martineEmpty ${(this.props.isOnMobile && this.state.currentlyViewedRat === i) ? "ratFrameActive" : ""}`}
-                src={'/ratchelor2/img/frames/martine-frame-empty.PNG'}
+                src={'/ratchelor2/img/frames/martine-frame-empty.png'}
                 alt=""
               />}
               <img

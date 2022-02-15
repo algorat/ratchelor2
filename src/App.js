@@ -616,7 +616,7 @@ class RatchelorGame extends React.Component {
         <Proposal
           finalRat={this.finalRat}
           isOnMobile={this.state.isOnMobile}
-          playerRatUrl={`${process.env.PUBLIC_URL}/img/Player/${this.state.playerIdx}_proposal.PNG`}
+          playerRatUrl={`${process.env.PUBLIC_URL}/img/Player/${this.state.playerIdx}_proposal.png`}
           advanceState={() => {
             this.setState({ gameStage: ANIME_ENDING });
           }}

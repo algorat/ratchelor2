@@ -256,7 +256,7 @@ class TalkingToRats extends React.Component {
         <img
           id="dialogueImg"
           alt="dialogue emoji"
-          src={`${process.env.PUBLIC_URL}/img/Reactions/${this.state.currReaction}.PNG`}
+          src={`${process.env.PUBLIC_URL}/img/Reactions/${this.state.currReaction}.png`}
         ></img>
       );
     }
@@ -277,7 +277,7 @@ class TalkingToRats extends React.Component {
                   emote={
                     <img
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/img/Reactions/${this.state.currReaction}.PNG`}
+                      src={`${process.env.PUBLIC_URL}/img/Reactions/${this.state.currReaction}.png`}
                     />
                   }
                   left={

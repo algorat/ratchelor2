@@ -314,6 +314,11 @@
   width: auto;
 }
 
+.mobile #roseCeremonyScreen .xlarge {
+  height: 34vh;
+  width: auto;
+}
+
 .mobile #roseCeremonyScreen #frontRow {
   margin-top: -20px;
   column-gap: 4px;

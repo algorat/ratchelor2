@@ -168,8 +168,8 @@
         "talking_to_rats_filename":[
             "moderna",
             "moderna",
-            "moderna-3",
             "moderna",
+            "moderna-child",
             "moderna"
         ],
         "size": "medium",
@@ -232,7 +232,7 @@
        "filename": "klaus",
         "size": "medium",
         "ending": "ROMANTICHAPPY",
-        "reaction_pos":[0.29, 0.1325],
+        "reaction_pos":[0.23, 0.18],
         "zodiac": "Aries"
     },
     {
@@ -295,9 +295,9 @@
         ],
         "tagline": "Dream big, style bigger",
         "filename": "podolico",
-        "size": "large",
+        "size": "xlarge",
         "ending": "ROMANTICHAPPY",
-        "reaction_pos":[0.2333, 0.1258],
+        "reaction_pos":[0.245, 0.11],
         "zodiac": "Leo"
     },
     {

@@ -695,6 +695,10 @@ button:focus {
   display: inline;
 }
 
+#roseCeremonyScreen .xlarge {
+  height: 300px;
+}
+
 #roseCeremonyScreen .large {
   height: 240px;
 }
