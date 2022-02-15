@@ -1,7 +1,7 @@
 [
     {
 
-        "rat": "amme",
+        "rat": "shibby",
         "photos":[
           {
             "filename": "amme_pederson.png",
@@ -9,6 +9,12 @@
             "numRats": 2,
             "Rat1": "shibby",
             "Rat2": "pederson"
+          },
+          {
+            "filename": "shibby.png",
+            "text": "Amme goes pro!",
+            "numRats": 1,
+            "Rat1": "shibby"
           }
         ]
     },
@@ -28,6 +34,12 @@
           "numRats": 2,
           "Rat1": "pederson",
           "Rat2": "sminny"
+        }
+          ,    
+          {"filename": "pederson.png",
+          "text": "Pederson has a beautiful Spring day",
+          "numRats": 1,
+          "Rat1": "pederson"
         }
         ]
 
@@ -78,15 +90,19 @@
             "text": "Podolico's support helps Fizzywig face their fear of crabs",
             "numRats": 2,
             "Rat1": "fizzwig",
-            "Rat2": "podolico",
-            "Rat3": ""
+            "Rat2": "podolico"
           },  {
             "filename": "podolico.png",
             "text": "Podolico graduates with another PhD",
             "numRats": 1,
             "Rat1": "podolico",
-            "Rat2": "",
-            "Rat3": ""
+            "Rat2": ""
+          },  {
+            "filename": "podolico_ultrarat.png",
+            "text": "Podolico & UltraRat muse about the sands of time",
+            "numRats": 1,
+            "Rat1": "podolico",
+            "Rat2": "ultrarat"
           }
             ]
     },
@@ -99,6 +115,12 @@
           "numRats": 2,
           "Rat1": "klaus",
           "Rat2": "empire"
+        },
+        {
+          "filename": "empire.png",
+          "text": "Empire suprises themself with a bubble bath",
+          "numRats": 1,
+          "Rat1": "empire"
         }]
 
     },
@@ -228,7 +250,13 @@
           "numRats": 2,
           "Rat1": "simmsammo",
           "Rat2": "seansean"
-        }]
+        },{
+          "filename": "simmsammo.png",
+          "text": "SimmSammo wins the staring contest",
+          "numRats": 1,
+          "Rat1": "simmsammo"
+        }
+      ]
     },
     {
 
@@ -240,7 +268,14 @@
           "numRats": 2,
           "Rat1": "sminny",
           "Rat2": "ultrarat"
-        }]
+        },  {
+          "filename": "podolico_ultrarat.png",
+          "text": "Podolico & UltraRat muse about the sands of time",
+          "numRats": 1,
+          "Rat1": "podolico",
+          "Rat2": "ultrarat"
+        }
+      ]
     },
     {
 
@@ -264,5 +299,25 @@
       "Rat1": "barronhotlands",
       "Rat2": "boyboymysterio"
     }]
+},    {
+
+  "rat": "eggs",
+  "photos":[   
+    {
+    "filename": "egg.png",
+    "text": "Eggs finds joy in studying the origins of eggs",
+    "numRats": 1,
+    "Rat1": "eggs"
+  }]
+},    {
+
+  "rat": "martine",
+  "photos":[   
+    {
+    "filename": "martine.png",
+    "text": "Martine and their new house to haunt",
+    "numRats": 1,
+    "Rat1": "martine"
+  }]
 }
 ]
