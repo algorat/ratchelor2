@@ -535,13 +535,13 @@
   left: 0px;
   height: 100%;
   width: 100%;
-  background-color: #ffe5e5;
+  background-color: #f3e5fb;
   z-index: 101;
   font-size: var(--mobile-h2);
   text-align: center;
   line-height: var(--mobile-h2-line-height);
   padding: 8px;
-  color: #873246;
+  color: #592793;
 }
 
 .mobile .black-background {
