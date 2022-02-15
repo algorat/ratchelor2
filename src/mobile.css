@@ -295,8 +295,9 @@
   width: auto;
 }
 
-#roseCeremonyScreen .med-small {
+.mobile #roseCeremonyScreen .med-small {
   height: 20vh;
+  width: auto;
 }
 
 .mobile #roseCeremonyScreen .medium {
