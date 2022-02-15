@@ -66,6 +66,7 @@ class RoseCeremony extends React.Component {
     // Find our special sized rats
     let lepixIndex = this.ratNames.indexOf("Le Pix");
     let podoIndex = this.ratNames.indexOf("Podolico");
+    let simIndex = this.ratNames.indexOf("SimmSammo");
 
         // Put lepix first
         if (lepixIndex !== -1) {
@@ -76,12 +77,20 @@ class RoseCeremony extends React.Component {
           }
         }
     
-        // Put largo next
+        // Put podo next
         if (podoIndex !== -1) {
           if (backRowSize > 0) {
             backRowNames.push("Podolico");
           } else {
             frontRowNames.push("Podolico");
+          }
+        }
+        // Put simmsammo next
+        if (simIndex !== -1) {
+          if (backRowSize > 0) {
+            backRowNames.push("SimmSammo");
+          } else {
+            frontRowNames.push("SimmSammo");
           }
         }
     
@@ -91,7 +100,8 @@ class RoseCeremony extends React.Component {
           if (
             !(
               currName === "Le Pix" ||
-              currName === "Podolico"
+              currName === "Podolico"||
+              currName === "SimmSammo"
         )
       ) {
         // Fill up the rows according to the number of contestants
