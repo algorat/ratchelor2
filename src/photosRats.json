@@ -78,6 +78,11 @@
           "numRats": 2,
           "Rat1": "fizzwig",
           "Rat2": "podolico"
+        },{
+          "filename": "fizzywig.png",
+          "text": "Fizzywigs does all they can to get as far away from crabs as possible",
+          "numRats": 1,
+          "Rat1": "fizzwig"
         }]
 
     },
@@ -252,7 +257,7 @@
           "Rat2": "seansean"
         },{
           "filename": "simmsammo.png",
-          "text": "SimmSammo wins the staring contest",
+          "text": "Simmsammo wins the national staring contest",
           "numRats": 1,
           "Rat1": "simmsammo"
         }
@@ -305,7 +310,7 @@
   "photos":[   
     {
     "filename": "egg.png",
-    "text": "Eggs finds joy in studying the origins of eggs",
+    "text": "Eggs meets the parent of their namesake",
     "numRats": 1,
     "Rat1": "eggs"
   }]
