@@ -1,6 +1,6 @@
 import React from "react";
-import photosRats from "../photosRats.json";
-import ratsJson from "../rats.json";
+import photosjson from "../photos.json";
+//import ratsJson from "../rats.json";
 import MobileWrapper from "./MobileWrapper";
 
 class SpecialEnding extends React.Component {
@@ -10,12 +10,17 @@ class SpecialEnding extends React.Component {
     this.offLimitRats = [props.finalRat];
     this.beginningRatPool = props.beginningRatPool;
     this.photos = [];
-    for (let i = 0; i < this.beginningRatPool.length; i++) {
-      var f = this.getRatEndingFilename(this.beginningRatPool[i]);
-      if (f !== undefined) {
-        this.photos[this.photos.length] = f[0];
-        this.text[this.text.length] = f[1];
-      }
+    // for (let i = 0; i < this.beginningRatPool.length; i++) {
+    //   var f = this.getRatEndingFilename(this.beginningRatPool[i]);
+    //   if (f !== undefined) {
+    //     this.photos[this.photos.length] = f[0];
+    //     this.text[this.text.length] = f[1];
+    //   }
+    // }
+    var goodPhotos = this.getPhotos(props.finalRat);
+    for(let i = 0; i < goodPhotos.length; i++){
+      this.photos[i]=goodPhotos[i].filename
+      this.text[i]=goodPhotos[i].text
     }
     this.state = {
       opacity: 1,
@@ -24,100 +29,180 @@ class SpecialEnding extends React.Component {
       selectRatsButton: <div id="chooseText">Others have found love too!</div>,
     };
   }
+  random(seed) {
+    var x = Math.sin(seed++) * 10000;
+    return x - Math.floor(x);
+  }
+
+//Grabs photos that will display with no duplicate rats
+  getPhotos(activeRat){
+  
+  //possible photos is the bank we can take photos from, it starts off as all photos
+  let possiblePhotos = this.grabAllPhotos()
+  
+  //before you do anything, remove all photos that contain the rat you marries
+  this.listCleanup(possiblePhotos, activeRat) 
+  
+  
+  //photos that end up being displayed
+  let goodPhotos = []
+  
+  //the numer of photos you're grabbing - I think we could change this to rand(4,6) 
+  //and then also reformat the epilog page so it centers the photos
+  // 6: x x x   5: x x x    OR  x x     4: x x
+  //    x x x       x x        x x x       x x
+  
+  let numPhotos = 6;
+  
+  //loops through num photos
+  for (let i = 0; i < numPhotos; i++){
+    //grabs 'newPhoto' from possiblePhotos
+    var newPhotoIndex = Math.round(Math.random() * possiblePhotos.length)
+    var newPhoto = possiblePhotos[newPhotoIndex]  
+    var newPhotoRats = newPhoto["rats"]
+    
+    //adds to our good photos list
+    goodPhotos.push(newPhoto)
+ 
+    //loops through rats in the new photo and cleans up possiblePhotos accordingly
+    for (var j = 0; j < newPhotoRats.length ; j++) {
+      this.listCleanup(possiblePhotos, newPhotoRats[j])    
+    }   
+  } 
+  
+  //returns list of the photos that will be displayed
+  return goodPhotos
+}
+
+//makes a list of all photos in photosjson
+grabAllPhotos(){
+  let allPhotos = []
+  
+  for (const [key,value] of Object.entries(photosjson)){
+
+    let currentPhoto = {   "filename": key}
+
+    for (const [key2,value2] of Object.entries(value)){
+      if (key2 === "rats"){
+        currentPhoto[key2] = value2.split(",")      
+      } else {
+        currentPhoto[key2] = value2      
+      }
+    }
+    
+    
+    allPhotos.push( currentPhoto )
+
+  }
+return allPhotos
+  
+}
+
+//removes all photos that contain a specific rat
+listCleanup(possiblePhotos, rat){
+
+  for (var i = possiblePhotos.length - 1; i >= 0; i--) {
+    //Auction.auctions[i].seconds--;
+    if (possiblePhotos[i]["rats"].includes(rat) === true) { 
+        possiblePhotos.splice(i, 1);
+    }
+  }
+}
+
   // Takes a string rat name and returns the Json object with additional details
-  getRatByName(name) {
-    for (let i = 0; i < ratsJson.length; i++) {
-      if (ratsJson[i].name === name) {
-        return ratsJson[i].filename;
-      }
-    }
-  }
-  getRatEndingFilename(fullName) {
-    //from beginning pool
-    var name = this.getRatByName(fullName);
-    var retVal;
-    var retText;
-    //var ti = this.text.length
-    var corats = [];
-    var noFileFound = false;
-    for (let i = 0; i < photosRats.length; i++) {
-      if (photosRats[i].rat === name) {
-        var numEndings = photosRats[i].photos.length;
+  // getRatByName(name) {
+  //   for (let i = 0; i < ratsJson.length; i++) {
+  //     if (ratsJson[i].name === name) {
+  //       return ratsJson[i].filename;
+  //     }
+  //   }
+  // }
+  // getRatEndingFilename(fullName) {
+  //   //from beginning pool
+  //   var name = this.getRatByName(fullName);
+  //   var retVal;
+  //   var retText;
+  //   //var ti = this.text.length
+  //   var corats = [];
+  //   var noFileFound = false;
+  //   for (let i = 0; i < photosRats.length; i++) {
+  //     if (photosRats[i].rat === name) {
+  //       var numEndings = photosRats[i].photos.length;
 
-        var idx = Math.floor(Math.random() * numEndings);
-        //var coRat = [this.offLimitRats[0]]
-        // add this rat
-        // just set it to something that will start the while loop
-        var j = 0;
-        var noViableEnding = true;
-        // console.log(this.offLimitRats)
-        while (noViableEnding) {
-          retVal = photosRats[i].photos[idx].filename;
-          retText = photosRats[i].photos[idx].text;
+  //       var idx = Math.floor(Math.random() * numEndings);
+  //       //var coRat = [this.offLimitRats[0]]
+  //       // add this rat
+  //       // just set it to something that will start the while loop
+  //       var j = 0;
+  //       var noViableEnding = true;
+  //       // console.log(this.offLimitRats)
+  //       while (noViableEnding) {
+  //         retVal = photosRats[i].photos[idx].filename;
+  //         retText = photosRats[i].photos[idx].text;
 
-          corats = [];
-          // console.log(retVal)
-          switch (photosRats[i].photos[idx].numRats) {
-            case 3:
-              corats[corats.length] = photosRats[i].photos[idx].Rat1;
-              noViableEnding =
-                this.offLimitRats.indexOf(corats[corats.length - 1]) >= 0;
-              corats[corats.length] = photosRats[i].photos[idx].Rat2;
-              noViableEnding =
-                noViableEnding ||
-                this.offLimitRats.indexOf(corats[corats.length - 1]) >= 0;
-              corats[corats.length] = photosRats[i].photos[idx].Rat3;
-              // console.log("case3");
-              noViableEnding =
-                noViableEnding ||
-                this.offLimitRats.indexOf(corats[corats.length - 1]) >= 0;
-              // console.log("noViableEnding: " + noViableEnding)
-              break;
-            case 2:
-              // console.log("case2")
-              corats[corats.length] = photosRats[i].photos[idx].Rat1;
-              noViableEnding =
-                this.offLimitRats.indexOf(corats[corats.length - 1]) >= 0;
-              corats[corats.length] = photosRats[i].photos[idx].Rat2;
-              noViableEnding =
-                noViableEnding ||
-                this.offLimitRats.indexOf(corats[corats.length - 1]) >= 0;
-              // console.log("noViableEnding: " + noViableEnding)
-              break;
+  //         corats = [];
+  //         // console.log(retVal)
+  //         switch (photosRats[i].photos[idx].numRats) {
+  //           case 3:
+  //             corats[corats.length] = photosRats[i].photos[idx].Rat1;
+  //             noViableEnding =
+  //               this.offLimitRats.indexOf(corats[corats.length - 1]) >= 0;
+  //             corats[corats.length] = photosRats[i].photos[idx].Rat2;
+  //             noViableEnding =
+  //               noViableEnding ||
+  //               this.offLimitRats.indexOf(corats[corats.length - 1]) >= 0;
+  //             corats[corats.length] = photosRats[i].photos[idx].Rat3;
+  //             // console.log("case3");
+  //             noViableEnding =
+  //               noViableEnding ||
+  //               this.offLimitRats.indexOf(corats[corats.length - 1]) >= 0;
+  //             // console.log("noViableEnding: " + noViableEnding)
+  //             break;
+  //           case 2:
+  //             // console.log("case2")
+  //             corats[corats.length] = photosRats[i].photos[idx].Rat1;
+  //             noViableEnding =
+  //               this.offLimitRats.indexOf(corats[corats.length - 1]) >= 0;
+  //             corats[corats.length] = photosRats[i].photos[idx].Rat2;
+  //             noViableEnding =
+  //               noViableEnding ||
+  //               this.offLimitRats.indexOf(corats[corats.length - 1]) >= 0;
+  //             // console.log("noViableEnding: " + noViableEnding)
+  //             break;
 
-            case 1:
-              // console.log("case1")
-              corats[corats.length] = photosRats[i].photos[idx].Rat1;
-              noViableEnding =
-                this.offLimitRats.indexOf(corats[corats.length - 1]) >= 0;
-              // console.log("noViableEnding: " + noViableEnding)
-              break;
-            default:
-              //do nothing
-              break;
-          }
-          // break while loop
-          if (j > numEndings) {
-            noViableEnding = false;
-            noFileFound = true;
-            // console.log()
-          }
-          idx = (idx + 1) % numEndings;
+  //           case 1:
+  //             // console.log("case1")
+  //             corats[corats.length] = photosRats[i].photos[idx].Rat1;
+  //             noViableEnding =
+  //               this.offLimitRats.indexOf(corats[corats.length - 1]) >= 0;
+  //             // console.log("noViableEnding: " + noViableEnding)
+  //             break;
+  //           default:
+  //             //do nothing
+  //             break;
+  //         }
+  //         // break while loop
+  //         if (j > numEndings) {
+  //           noViableEnding = false;
+  //           noFileFound = true;
+  //           // console.log()
+  //         }
+  //         idx = (idx + 1) % numEndings;
 
-          // get the other rat involved
-          j++;
-        }
-      }
-    }
-    if (noFileFound) {
-      return undefined;
-    }
-    for (var i = 0; i < corats.length; i++) {
-      this.offLimitRats[this.offLimitRats.length] = corats[i];
-    }
+  //         // get the other rat involved
+  //         j++;
+  //       }
+  //     }
+  //   }
+  //   if (noFileFound) {
+  //     return undefined;
+  //   }
+  //   for (var i = 0; i < corats.length; i++) {
+  //     this.offLimitRats[this.offLimitRats.length] = corats[i];
+  //   }
 
-    return [retVal, retText];
-  }
+  //   return [retVal, retText];
+  // }
   // When a rat is clicked
   selectRat(id) {
     // Get the element for the current rat button
@@ -146,10 +231,6 @@ class SpecialEnding extends React.Component {
       return;
     }
     element.classList.remove("selectedRat");
-  }
-  random(seed) {
-    var x = Math.sin(seed++) * 10000;
-    return x - Math.floor(x);
   }
   render() {
     //console.log(this.photos)
