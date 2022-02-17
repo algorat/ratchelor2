@@ -1,4 +1,4 @@
-A basic app :)
+plz reload
 
 # Running the app
 
