@@ -3,9 +3,25 @@
     "text": "A shared perspective brings Amme and Pederson together",
     "rats": "shibby,pederson"
   },
+  "barronhotlands_boyboymysterio.png": {
+    "text": "Boy Boy Mysterio and Barron Hotlands realize their feelings for eachother are more than they ever imagined",
+    "rats": "boyboymysterio,barronhotlands"
+  },
   "celery.png": {
     "text": "Celery invents a new recipe: spinach truffle cake!",
     "rats": "celery"
+  },
+  "eggs.png": {
+    "text": "Eggs meets the parent of their namesake",
+    "rats": "eggs"
+  },
+  "empire.png": {
+    "text": "Empire unwinds with a bubble bath",
+    "rats": "empire"
+  },
+  "esche_sminny.png": {
+    "text": "Sminny gives esche a lifetime supply of pollen and love",
+    "rats": "sminny,esche"
   },
   "esche.png": {
     "text": "Esche finds new friends in old places",
@@ -15,29 +31,81 @@
     "text": "Podolico's support helps Fizzywig face their fear of crabs",
     "rats": "fizzywig,podolico"
   },
-  "klause_empire.png": {
+  "fizzywig-2.png": {
+    "text": "Fizzywig practices for the band",
+    "rats": "fizzywig"
+  },
+  "fizzywig.png": {
+    "text": "Fizzywigs does all they can to get as far away from crabs as possible",
+    "rats": "fizzywig"
+  },
+  "klaus_simmsammo.png": {
+    "text": "Klaus and Sminny discover there is more to life than money and shoes",
+    "rats": "klaus,simmsammo"
+  },
+  "klaus_zippy_love.png": {
+    "text": "Whoops! Zippy and Klaus accidently fall in love",
+    "rats": "zippy,klaus"
+  },
+  "klaus_zippy.png": {
+    "text": "Zippy and Klaus exchange fashion advice!",
+    "rats": "zippy,klaus"
+  },
+  "klaus.png": {
+    "text": "Klause develops the first ever line of couture shoes for pretzels",
+    "rats": "klaus"
+  },
+  "klaus_empire.png": {
     "text": "Klaus surprises Empire with a birthday museum trip",
     "rats": "klaus,empire"
   },
-  "klause_sminny.png": {
+  "klaus_sminny.png": {
     "text": "Sminny went to buy shoes, and found love instead",
     "rats": "sminny,klaus"
   },
-  "moom.png": {
-    "text": "Moom finds peace in their favorite place",
-    "rats": "moom"
+  "martine.png": {
+    "text": "Martine finds somewhere to call home",
+    "rats": "martine"
   },
   "moom_seansean.png": {
     "text": "A walk through the garden turns into a tender moment",
     "rats": "moom,seansean"
   },
+  "moom.png": {
+    "text": "Moom finds peace in their favorite place",
+    "rats": "moom"
+  },
+  "pederson_sharpie.png": {
+    "text": "Pederson and Sharpe are so in sync that even their thought bubbles are kissing",
+    "rats": "sharpie,pederson"
+  },
   "pederson_sminny.png": {
     "text": "Pederson and Sminny have a beautiful Spring wedding",
-    "rats": "pedersen,sminny"
+    "rats": "pederson,sminny"
+  },
+  "pederson.png": {
+    "text": "Pederson takes a stroll in the park",
+    "rats": "pederson"
+  },
+  "podolico_simmsammo.png": {
+    "text": "An unexpected love blossoms between two sensative souls",
+    "rats": "podolico,simmsammo"
+  },
+  "podolico_ultrarat.png": {
+    "text": "Podolico and Ultrarat try to travel to another galaxy but get lost in eachothers eyes",
+    "rats": "podolico,ultrarat"
+  },
+  "podolico_zippy.png": {
+    "text": "Zippy's love for Podolico reaches new heights",
+    "rats": "podolico,zippy"
   },
   "podolico.png": {
     "text": "Podolico graduates with another PhD",
     "rats": "podolico"
+  },
+  "seansean_ultrarat.png": {
+    "text": "The nose-kiss of true love",
+    "rats": "seansean,ultrarat"
   },
   "seansean.png": {
     "text": "The mushrooms and Sean Sean spend a meaningful day together",
@@ -47,48 +115,32 @@
     "text": "A fashionable duo finds a joyful romance",
     "rats": "sharpie,seansean"
   },
+  "shibby.png": {
+    "text": "Amme wins first place in the world wide freestyle kicking championship",
+    "rats": "shibby"
+  },
   "simmsammo_seansean.png": {
     "text": "SimmSammo and Sean Sean lift each other to new heights",
     "rats": "simmsammo,seansean"
+  },
+  "simmsammo_ultrarat.png": {
+    "text": "Their love was written in the stars",
+    "rats": "ultrarat,simmsammo"
+  },
+  "simmsammo.png": {
+    "text": "Simmsammo wins the national staring contest",
+    "rats": "simmsammo"
+  },
+  "sminny_ultrarat.png": {
+    "text": "A long distance romance thrives across space and time",
+    "rats": "sminny,ultrarat"
   },
   "sminny.png": {
     "text": "Sminny wins the prestigious #1 Business Award",
     "rats": "sminny"
   },
-  "sminny_ultrarat.png": {
-    "text": "A long distance romance thrives across space and time",
-    "rats": "sminny, ultrarat"
-  },
-  "podolico_ultrarat.png": {
-    "text": "Podolico and Ultrarat try to travel to another galaxy but get lost in eachothers eyes",
-    "rats": "podolico, ultrarat"
-  },
-  "empire.png": {
-    "text": "Empire unwinds with a bubble bath",
-    "rats": "empire"
-  },
-  "pederson.png": {
-    "text": "Pederson takes a stroll in the park",
-    "rats": "pedersen"
-  },
-  "shibby.png": {
-    "text": "Amme wins first place in the world wide freestyle kicking championship",
-    "rats": "shibby"
-  },
-  "eggs.png": {
-    "text": "Eggs meets the parent of their namesake",
-    "rats": "eggs"
-  },
-  "martine.png": {
-    "text": "Martine finds somewhere to call home",
-    "rats": "martine"
-  },
-  "fizzywig.png": {
-    "text": "Fizzywigs does all they can to get as far away from crabs as possible",
-    "rats": "fizzywig"
-  },
-  "simmsammo.png": {
-    "text": "Simmsammo wins the national staring contest",
-    "rats": "simmsammo"
+  "ultrarat_zippy.png": {
+    "text": "The moon is full! So are Zippy and Ultrarat's hearts",
+    "rats": "zippy,ultrarat"
   }
 }
