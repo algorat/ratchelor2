@@ -18,9 +18,9 @@ class SpecialEnding extends React.Component {
     //   }
     // }
     var goodPhotos = this.getPhotos(props.finalRat);
-    for(let i = 0; i < goodPhotos.length; i++){
-      this.photos[i]=goodPhotos[i].filename
-      this.text[i]=goodPhotos[i].text
+    for (let i = 0; i < goodPhotos.length; i++) {
+      this.photos[i] = goodPhotos[i].filename;
+      this.text[i] = goodPhotos[i].text;
     }
     this.state = {
       opacity: 1,
@@ -34,80 +34,73 @@ class SpecialEnding extends React.Component {
     return x - Math.floor(x);
   }
 
-//Grabs photos that will display with no duplicate rats
-  getPhotos(activeRat){
-  
-  //possible photos is the bank we can take photos from, it starts off as all photos
-  let possiblePhotos = this.grabAllPhotos()
-  
-  //before you do anything, remove all photos that contain the rat you marries
-  this.listCleanup(possiblePhotos, activeRat) 
-  
-  
-  //photos that end up being displayed
-  let goodPhotos = []
-  
-  //the numer of photos you're grabbing - I think we could change this to rand(4,6) 
-  //and then also reformat the epilog page so it centers the photos
-  // 6: x x x   5: x x x    OR  x x     4: x x
-  //    x x x       x x        x x x       x x
-  
-  let numPhotos = 6;
-  
-  //loops through num photos
-  for (let i = 0; i < numPhotos; i++){
-    //grabs 'newPhoto' from possiblePhotos
-    var newPhotoIndex = Math.round(Math.random() * possiblePhotos.length)
-    var newPhoto = possiblePhotos[newPhotoIndex]  
-    var newPhotoRats = newPhoto["rats"]
-    
-    //adds to our good photos list
-    goodPhotos.push(newPhoto)
- 
-    //loops through rats in the new photo and cleans up possiblePhotos accordingly
-    for (var j = 0; j < newPhotoRats.length ; j++) {
-      this.listCleanup(possiblePhotos, newPhotoRats[j])    
-    }   
-  } 
-  
-  //returns list of the photos that will be displayed
-  return goodPhotos
-}
+  //Grabs photos that will display with no duplicate rats
+  getPhotos(activeRat) {
+    //possible photos is the bank we can take photos from, it starts off as all photos
+    let possiblePhotos = this.grabAllPhotos();
 
-//makes a list of all photos in photosjson
-grabAllPhotos(){
-  let allPhotos = []
-  
-  for (const [key,value] of Object.entries(photosjson)){
+    //before you do anything, remove all photos that contain the rat you marries
+    this.listCleanup(possiblePhotos, activeRat);
 
-    let currentPhoto = {   "filename": key}
+    //photos that end up being displayed
+    let goodPhotos = [];
 
-    for (const [key2,value2] of Object.entries(value)){
-      if (key2 === "rats"){
-        currentPhoto[key2] = value2.split(",")      
-      } else {
-        currentPhoto[key2] = value2      
+    //the numer of photos you're grabbing - I think we could change this to rand(4,6)
+    //and then also reformat the epilog page so it centers the photos
+    // 6: x x x   5: x x x    OR  x x     4: x x
+    //    x x x       x x        x x x       x x
+
+    let numPhotos = 6;
+
+    //loops through num photos
+    for (let i = 0; i < numPhotos; i++) {
+      //grabs 'newPhoto' from possiblePhotos
+      var newPhotoIndex = Math.floor(Math.random() * possiblePhotos.length);
+      var newPhoto = possiblePhotos[newPhotoIndex];
+      var newPhotoRats = newPhoto["rats"];
+
+      //adds to our good photos list
+      goodPhotos.push(newPhoto);
+
+      //loops through rats in the new photo and cleans up possiblePhotos accordingly
+      for (var j = 0; j < newPhotoRats.length; j++) {
+        this.listCleanup(possiblePhotos, newPhotoRats[j]);
       }
     }
-    
-    
-    allPhotos.push( currentPhoto )
 
+    //returns list of the photos that will be displayed
+    return goodPhotos;
   }
-return allPhotos
-  
-}
 
-//removes all photos that contain a specific rat
-listCleanup(possiblePhotos, rat){
+  //makes a list of all photos in photosjson
+  grabAllPhotos() {
+    let allPhotos = [];
 
-  for (var i = possiblePhotos.length - 1; i >= 0; i--) {
-    //Auction.auctions[i].seconds--;
-    if (possiblePhotos[i]["rats"].includes(rat) === true) { 
+    for (const [key, value] of Object.entries(photosjson)) {
+      let currentPhoto = { filename: key };
+
+      for (const [key2, value2] of Object.entries(value)) {
+        if (key2 === "rats") {
+          currentPhoto[key2] = value2.split(",");
+        } else {
+          currentPhoto[key2] = value2;
+        }
+      }
+
+      allPhotos.push(currentPhoto);
+    }
+    return allPhotos;
+  }
+
+  //removes all photos that contain a specific rat
+  listCleanup(possiblePhotos, rat) {
+    for (var i = possiblePhotos.length - 1; i >= 0; i--) {
+      //Auction.auctions[i].seconds--;
+      if (possiblePhotos[i]["rats"].includes(rat) === true) {
         possiblePhotos.splice(i, 1);
+      }
     }
   }
-}
 
   // Takes a string rat name and returns the Json object with additional details
   // getRatByName(name) {
@@ -233,8 +226,6 @@ listCleanup(possiblePhotos, rat){
     element.classList.remove("selectedRat");
   }
   render() {
-    //console.log(this.photos)
-    // console.log(photos)
     let ratsList = [
       <img
         key={"bgimg"}
